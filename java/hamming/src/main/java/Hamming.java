@@ -26,10 +26,6 @@ class Hamming {
     }
 
     int getHammingDistance() {
-        if (leftStrand.isEmpty() && rightStrand.isEmpty()) {
-            return 0;
-        }
-
         int hamming = 0;
         if (leftStrand.equals(rightStrand)) {
             return 0;
