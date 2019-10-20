@@ -1,6 +1,3 @@
-//Solution goes in Sources
-import Foundation
-
 class Year {
     let year: Int
     
